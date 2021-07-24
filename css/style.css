@@ -66,14 +66,23 @@
 .site-nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.02em;
+
+    display: flex;
+}
+.site-nav .items:not(:last-child),
+.header-info .items:not(:last-child){
+    margin-right: 50px;
+
+    background-color: tomato;
 }
 .site-nav .link {
     color: var(--primary-text-color);
 
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -90,12 +99,14 @@
 
     padding: 0;
     margin: 0;
+    display: flex;
 }
 .info-link {
     color: var(--paragraph-text-color);
 
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 .info-link:hover,
 .info-link:focus {
