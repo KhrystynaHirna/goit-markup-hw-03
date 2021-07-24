@@ -255,7 +255,10 @@
     color: var(--accent-color);
 } 
 /* Портфоліо */
-
+ .portfolio-section {
+     margin-top: 94px;
+     margin-bottom: 94px;
+ }
 /* Кнопки у портфоліо */
 .secondary-button{
     background: var(--team-background-color);
@@ -265,6 +268,13 @@
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+
+    min-width: 73px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 22px;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 .secondary-button:hover,
 .secondary-button:focus {
@@ -275,10 +285,18 @@
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
+
+    min-width: 322px;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 .item-description {
     color: var(--paragraph-text-color);
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
+
+    min-width: 322px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
