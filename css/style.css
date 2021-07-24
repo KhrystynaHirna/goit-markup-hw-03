@@ -42,6 +42,11 @@
 /* Навігація */
 
 /* Лого хедер */
+.page-header .main-nav {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     color: var(--accent-color);
     font-family: 'Raleway', 'Arial', sans-serif;
@@ -70,12 +75,12 @@
     letter-spacing: 0.02em;
 
     display: flex;
+    margin-left: 93px;
 }
-.site-nav .items:not(:last-child),
-.header-info .items:not(:last-child){
-    margin-right: 50px;
 
-    background-color: tomato;
+.site-nav .item:not(:last-child),
+.header-info .item:not(:last-child){
+    margin-right: 50px;
 }
 .site-nav .link {
     color: var(--primary-text-color);
@@ -98,7 +103,7 @@
     letter-spacing: 0.02em;
 
     padding: 0;
-    margin: 0;
+    margin-left: auto;
     display: flex;
 }
 .info-link {
