@@ -49,7 +49,7 @@
     color: var(--accent-color);
     font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.03em;  
 }
 .logo .black-color {
@@ -205,6 +205,17 @@
     margin-top: 0;
     margin-bottom: 50px;
 }
+.work {
+    display: flex;
+    padding-right: 0;
+    padding-left: 0;
+}
+.work-item:not(:last-child) {
+    margin-right: 30px;
+}
+.work-item {
+    display: inline-block;
+}
 
 /* Секція четверта */
 .team-section {
@@ -243,10 +254,12 @@
     margin-bottom: 0;
 }
 /* Лого футер */
+.logo .link {
+    margin-left: 215px;
+}
 .white-color {
     color: var(--body-background-color);
 }
-
 .logo > .white-color {
     display: inline-block;
     padding-top: 60px;
