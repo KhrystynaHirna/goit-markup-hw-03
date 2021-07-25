@@ -39,8 +39,6 @@
 }
 /* Шапка сторінки */
 
-/* Навігація */
-
 /* Лого хедер */
 .page-header .main-nav {
     display: flex;
@@ -68,6 +66,8 @@
 .logo:focus {
     color: var(--accent-color);
 }
+
+/* Навігація */
 .site-nav {
     font-weight: 500;
     font-size: 14px;
@@ -162,9 +162,15 @@
 }
 
 /* Секція друга */
+.container .secondary-section .advantages {
+    display: flex;
+}
 .secondary-section {
     margin-top: 0;
     margin-bottom: 94px;
+}
+.advantage-item:not(:last-child) {
+    margin-right: 30px;
 }
 .advantage {
     font-size: 14px;
@@ -174,7 +180,6 @@
 
     margin-top: 0;
     margin-bottom: 10px;
-    max-width: 270px;
 }
 
 .specific-advantage {
@@ -184,7 +189,6 @@
     letter-spacing: 0.03em;
 
     margin-top: 0;
-    max-width: 270px;
 }
 
 /* Секція третя */
