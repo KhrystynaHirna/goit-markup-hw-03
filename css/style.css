@@ -172,6 +172,17 @@
 .advantage-item:not(:last-child) {
     margin-right: 30px;
 }
+.advantages {
+    padding-left: 0;
+    padding-right: 0;
+}
+.adwantage-item {
+    width: 270px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 .advantage {
     font-size: 14px;
     line-height: 1.1;
@@ -217,16 +228,13 @@
 /* Секція четверта */
 .team-section {
     background-color: var(--team-background-color);
-    
-    margin-top: 0;
-    margin-bottom: 94px;
-    padding-bottom: 0;
 }
 .team-section > .secondary-title {
     padding-top: 94px;
 }
 .team {
     display: flex;
+    padding-bottom: 94px;
 }
 .team-card {
     text-align: center;
@@ -278,6 +286,8 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
 
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 60px;
 }
 .physical-address {
