@@ -330,10 +330,12 @@
 
     min-width: 73px;
     border-radius: 4px;
+    border: transparent;
     box-shadow: var(--secondary-button-shadow);
     padding: 6px 22px;
     margin-top: 0;
     margin-bottom: 50px;
+    
 }
 .nav-button:not(:last-child) {
     margin-right: 30px;
