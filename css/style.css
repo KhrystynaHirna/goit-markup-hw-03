@@ -10,6 +10,7 @@
     --primary-button-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     --team-card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     --secondary-button-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    --card-border-color: 1px solid #EEEEEE;
 }
 
 *, 
@@ -28,9 +29,6 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-
-
-    outline: 2px solid tomato;
 }
 .list {
     list-style: none;
@@ -64,7 +62,6 @@
     padding-top: 24px;
     padding-bottom: 25px;
 }
-
 .logo:hover,
 .logo:focus {
     color: var(--accent-color);
@@ -80,7 +77,6 @@
     display: flex;
     margin-left: 93px;
 }
-
 .site-nav .item:not(:last-child),
 .header-info .item:not(:last-child){
     margin-right: 50px;
@@ -124,6 +120,7 @@
 /* Унікальний контент сторінки */
 
 /* Секція перша */
+
 .main-section {
     background-color: var(--footor-background-color);
     color: var(--body-background-color);
@@ -196,7 +193,6 @@
     margin-top: 0;
     margin-bottom: 10px;
 }
-
 .specific-advantage {
     color: var(--paragraph-text-color);
     font-size: 14px;
@@ -263,7 +259,6 @@
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-
     color: var(--paragraph-text-color);
 
     margin-top: 0;
@@ -277,6 +272,7 @@
     margin-bottom: 0;
 }
 /* Лого футер */
+
 .logo .link {
     margin-left: 215px;
 }
@@ -335,7 +331,6 @@
     min-width: 73px;
     border-radius: 4px;
     box-shadow: var(--secondary-button-shadow);
-    text-align: center;
     padding: 6px 22px;
     margin-top: 0;
     margin-bottom: 50px;
@@ -364,6 +359,8 @@
     padding-left: 0;
     padding-right: 0;
     width: 370px;
+    border: var(--card-border-color);
+    box-sizing: border-box;
 }
 .portfolio-card {
    flex-basis: calc (100% / 3);
