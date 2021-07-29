@@ -125,7 +125,7 @@
     background-color: var(--footor-background-color);
     color: var(--body-background-color);
     margin-top: 0;
-    margin-bottom: 94px;
+    padding: 200px 0;
     text-align: center;
 }
 .main-title {
@@ -135,16 +135,11 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-    padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    min-width: 696px;
+    margin: 0 auto 30px auto;
+    width: 696px;
 }
 /* Кнопка */
 .primary-button {
-    display: inline-block;
     background-color: var(--accent-color);
     color: var(--body-background-color);
     font-family: inherit;
@@ -154,25 +149,24 @@
     letter-spacing: 0.06em;
 
     box-shadow: var(--primary-button-shadow);
+    border: none;
     border-radius: 4px; 
     padding: 10px 32px;
     min-width: 200px;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 200px;
 }
 
 /* Секція друга */
-.container .secondary-section .advantages {
+.secondary-section .container .advantages {
     display: flex;
+    justify-content: space-between;
 }
 .secondary-section {
-    margin-top: 0;
-    margin-bottom: 94px;
+    padding: 94px 0 47px 0;
 }
-.advantage-item:not(:last-child) {
-    margin-right: 30px;
-}
+
+
 .advantages {
     padding-left: 0;
     padding-right: 0;
@@ -205,8 +199,7 @@
 
 /* Секція третя */
 .third-section {
-    margin-top: 0;
-    margin-bottom: 94px;
+   padding: 47px 0 94px 0;
 }
 .secondary-title {
     font-size: 36px;
@@ -219,32 +212,26 @@
 }
 .work {
     display: flex;
-    padding-right: 0;
+    justify-content: space-between;
     padding-left: 0;
-}
-.work-item:not(:last-child) {
-    margin-right: 30px;
+    padding-right: 0;
 }
 
 /* Секція четверта */
 .team-section {
     background-color: var(--team-background-color);
+    padding: 94px 0;
 }
-.team-section > .secondary-title {
-    padding-top: 94px;
-}
+
 .team {
     display: flex;
-    padding-bottom: 94px;
+    justify-content: space-between;
 }
 .team-card {
     text-align: center;
 
     box-shadow: var(--team-card-shadow);
     border-radius: 0px 0px 4px 4px;
-}
-.team-card:not(:last-child) {
-    margin-right: 30px;
 }
 .employee-name {
     font-weight: 500;
@@ -268,6 +255,7 @@
 .footer {
     background-color: var(--footor-background-color);
     
+    padding: 60px 0;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -281,7 +269,6 @@
 }
 .logo > .white-color {
     display: inline-block;
-    padding-top: 60px;
     margin-bottom: 20px;
 }
 .address {
